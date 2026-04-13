@@ -30,11 +30,11 @@ int cekStatus(int izin, int suhu, int radiasi, int jam) {
 }
 
 int main() {
-    int izin, suhu, radiasi, jam, validasi;
+    int izin, suhu, radiasi, jam;
 
     scanf("%d %d %d %d", &izin, &suhu, &radiasi, &jam);
 
-    switch (validasi) {
+    switch (cekStatus(izin, suhu, radiasi, jam)) {
     case 0:
         printf("MASUK");
         break;
