@@ -38,14 +38,19 @@ int main() {
     switch (validasi) {
     case 0:
         printf("MASUK");
+        break;
     case 1:
         printf("KARANTINA");
+        break;
     case 2:
         printf("TOLAK");
+        break;
     case 3:
         printf("PEMERIKSAAN");
+        break;
     default:
         break;
     }
+
     return 0;
 }
